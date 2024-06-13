@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution 1</title>
+    <style>
+        button{
+            color: white;
+            border: 1px solid white;
+            height: 30px;
+            width: 150px;
+        }
+        :root{
+            --primary-color: #00b7ff;
+            --secondary-color: #6c757d;
+        }
+        #primaryBtn{
+            background-color: var(--primary-color);
+        }
+        #secondaryBtn{
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <!--Q1 Explain the purpose of using the var() function in css.
+        Sol: The var() function in CSS is used to insert the value of a custom property (sometimes referred to as a CSS variable) into another value. It provides a way to define and reuse values throughout your stylesheets, making it easier to maintain and update styles across your project.-->
+        <button id="primaryBtn">Primary Button</button>
+        <button id="secondaryBtn">Secondary Button</button>
+</body>
+</html>
